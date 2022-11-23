@@ -1,10 +1,12 @@
+import { Suspense } from "react";
+import AppRoutes from "./routes";
 
-function App() {
+const App = () => {
     return (
-        <div className="App">
-            App
-
-        </div>
+        <Suspense fallback={() => <h1>Loading...</h1>}>
+            {/* <Model /> */}
+            <AppRoutes />
+        </Suspense>
     );
 }
 
