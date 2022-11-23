@@ -1,0 +1,280 @@
+{
+  "users": [
+    {
+      "fullName": "Femil Savaliya",
+      "password": "Abc1234!@",
+      "userEmail": "femil@gmail.com",
+      "userName": "femil_32",
+      "userImage": "http://res.cloudinary.com/dczmdqrkz/image/upload/v1668499568/users/rahldarjv0gev7qybzq2.jpg",
+      "id": 1,
+      "following": []
+    },
+    {
+      "fullName": "Neel Oha",
+      "password": "Abc1234!@",
+      "userEmail": "neel@gmail.com",
+      "userName": "neel_18",
+      "userImage": "http://res.cloudinary.com/dczmdqrkz/image/upload/v1668418772/twitter/qqdcul9us3olkwpnhovy.png",
+      "id": 2,
+      "following": [
+        4,
+        3
+      ]
+    },
+    {
+      "fullName": "Light Yagami",
+      "password": "Abc1234!@",
+      "userEmail": "light@a.a",
+      "userName": "light_dark",
+      "userImage": "http://res.cloudinary.com/dczmdqrkz/image/upload/v1668418772/twitter/qqdcul9us3olkwpnhovy.png",
+      "id": 3,
+      "following": [
+        1,
+        4
+      ]
+    },
+    {
+      "fullName": "Goku",
+      "password": "Abc1234!@",
+      "userEmail": "goku@a.a",
+      "userName": "super_goku",
+      "userImage": "http://res.cloudinary.com/dczmdqrkz/image/upload/v1668418772/twitter/qqdcul9us3olkwpnhovy.png",
+      "id": 4,
+      "following": [
+        1,
+        2
+      ]
+    },
+    {
+      "fullName": "new user",
+      "password": "Abc1234!@",
+      "userEmail": "new@gmail.com",
+      "userName": "new88",
+      "userImage": "http://res.cloudinary.com/dczmdqrkz/image/upload/v1668516613/users/da4drlpy9nmdlaw2lnyk.png",
+      "id": 5,
+      "following": [
+        2
+      ]
+    },
+    {
+      "fullName": "demo user",
+      "password": "Abc1234!@",
+      "userEmail": "demo@gmail.com",
+      "userName": "demo99",
+      "userImage": "http://res.cloudinary.com/dczmdqrkz/image/upload/v1668516809/users/uc7b4ww00dy5syvj0zmg.jpg",
+      "following": [
+        5,
+        3,
+        4,
+        1
+      ],
+      "id": 6
+    },
+    {
+      "fullName": "margish patel",
+      "password": "Abc1234!@",
+      "userEmail": "margish@gmail.com",
+      "userName": "margish69",
+      "userImage": "http://res.cloudinary.com/dczmdqrkz/image/upload/v1668576261/users/wtx2qsoerq4ibus1bymk.jpg",
+      "following": [
+        3,
+        4,
+        5,
+        2,
+        7,
+        1
+      ],
+      "id": 7
+    },
+    {
+      "fullName": "xyz abc",
+      "password": "Abc1234!@",
+      "userEmail": "xuz@gmail.com",
+      "userName": "xyz_32",
+      "userImage": "http://res.cloudinary.com/dczmdqrkz/image/upload/v1668773594/users/h0dtnhek8zjs3dywvn4z.png",
+      "following": [
+        1,
+        4,
+        7
+      ],
+      "id": 8
+    }
+  ],
+  "tweets": [
+    {
+      "userId": 1,
+      "createdDate": "2022-11-14T09:39:32.837Z",
+      "updatedDate": "2022-11-21T04:54:27.178Z",
+      "tweetData": {
+        "tweet": "This is first tweet edited",
+        "imgUrl": "http://res.cloudinary.com/dczmdqrkz/image/upload/v1668418772/twitter/qqdcul9us3olkwpnhovy.png",
+        "likes": {
+          "totalLikes": 3,
+          "likeBy": [
+            2,
+            1
+          ]
+        }
+      },
+      "id": 1
+    },
+    {
+      "userId": 7,
+      "createdDate": "2022-11-16T07:15:33.164Z",
+      "updatedDate": "2022-11-17T08:20:38.011Z",
+      "tweetData": {
+        "tweet": "cscccscsc edited 3 graph",
+        "imgUrl": "http://res.cloudinary.com/dczmdqrkz/image/upload/v1668672817/twitter/siwvfjyxmtaducegc1sg.png",
+        "likes": {
+          "totalLikes": 0,
+          "likeBy": []
+        }
+      },
+      "id": 2
+    },
+    {
+      "userId": 7,
+      "createdDate": "2022-11-16T07:16:07.440Z",
+      "updatedDate": "2022-11-18T12:18:07.771Z",
+      "tweetData": {
+        "tweet": "asasas aaa",
+        "imgUrl": "",
+        "likes": {
+          "totalLikes": 0,
+          "likeBy": []
+        }
+      },
+      "id": 3
+    },
+    {
+      "userId": 7,
+      "createdDate": "2022-11-16T07:17:48.820Z",
+      "updatedDate": "2022-11-17T07:46:10.557Z",
+      "tweetData": {
+        "tweet": "sdsdsds edited \n",
+        "imgUrl": "",
+        "likes": {
+          "totalLikes": 0,
+          "likeBy": []
+        }
+      },
+      "id": 4
+    },
+    {
+      "userId": 7,
+      "createdDate": "2022-11-16T07:18:43.392Z",
+      "updatedDate": null,
+      "tweetData": {
+        "tweet": "asasas",
+        "imgUrl": "",
+        "likes": {
+          "totalLikes": 1,
+          "likeBy": [
+            1
+          ]
+        }
+      },
+      "id": 5
+    },
+    {
+      "userId": 7,
+      "createdDate": "2022-11-16T07:18:57.986Z",
+      "updatedDate": "2022-11-18T12:18:27.840Z",
+      "tweetData": {
+        "tweet": "asasasedited",
+        "imgUrl": "http://res.cloudinary.com/dczmdqrkz/image/upload/v1668583138/twitter/mxxxbijortrwtiihm4xs.png",
+        "likes": {
+          "totalLikes": 0,
+          "likeBy": []
+        }
+      },
+      "id": 6
+    },
+    {
+      "userId": 1,
+      "createdDate": "2022-11-16T11:19:51.186Z",
+      "updatedDate": null,
+      "tweetData": {
+        "tweet": "Hello all",
+        "imgUrl": "",
+        "likes": {
+          "totalLikes": 0,
+          "likeBy": []
+        }
+      },
+      "id": 7
+    },
+    {
+      "userId": 7,
+      "createdDate": "2022-11-17T08:01:55.734Z",
+      "updatedDate": null,
+      "tweetData": {
+        "tweet": "sdsdsds\nedited lion img",
+        "imgUrl": "http://res.cloudinary.com/dczmdqrkz/image/upload/v1668672118/twitter/pxvah5mxrxazk6d1xkdd.jpg",
+        "likes": {
+          "totalLikes": 0,
+          "likeBy": []
+        }
+      },
+      "id": 8
+    },
+    {
+      "userId": 7,
+      "createdDate": "2022-11-17T08:03:49.678Z",
+      "updatedDate": "2022-11-17T08:08:36.936Z",
+      "tweetData": {
+        "tweet": "sdsdsds\nedited graph img 101",
+        "imgUrl": "http://res.cloudinary.com/dczmdqrkz/image/upload/v1668672233/twitter/mfpgchuetxt1z0efbiqm.png",
+        "likes": {
+          "totalLikes": 0,
+          "likeBy": []
+        }
+      },
+      "id": 9
+    },
+    {
+      "userId": 7,
+      "createdDate": "2022-11-17T08:09:33.128Z",
+      "updatedDate": "2022-11-17T08:11:45.799Z",
+      "tweetData": {
+        "tweet": "cscccscsc edited lion 1",
+        "imgUrl": "http://res.cloudinary.com/dczmdqrkz/image/upload/v1668672706/twitter/f2nk6kbb7gkiudheo752.jpg",
+        "likes": {
+          "totalLikes": 0,
+          "likeBy": []
+        }
+      },
+      "id": 10
+    },
+    {
+      "userId": 8,
+      "createdDate": "2022-11-18T12:15:06.572Z",
+      "updatedDate": null,
+      "tweetData": {
+        "tweet": "dadwddw",
+        "imgUrl": "",
+        "likes": {
+          "totalLikes": 0,
+          "likeBy": []
+        }
+      },
+      "id": 11
+    },
+    {
+      "userId": 1,
+      "createdDate": "2022-11-18T13:28:14.723Z",
+      "updatedDate": "2022-11-18T13:28:14.723Z",
+      "tweetData": {
+        "tweet": "sdsds",
+        "imgUrl": "http://res.cloudinary.com/dczmdqrkz/image/upload/v1668778094/twitter/g09kdwohypyzvqamcljn.jpg",
+        "likes": {
+          "totalLikes": 1,
+          "likeBy": [
+            1
+          ]
+        }
+      },
+      "id": 12
+    }
+  ]
+}
